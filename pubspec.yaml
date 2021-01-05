@@ -1,0 +1,74 @@
+name: mmsr
+description: Writer
+
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  image_picker: 
+  permission_handler:
+  flutter_icons:
+  path_provider: ^1.3.0
+  http: "0.12.0+2"
+  rubber: 0.4.0
+  flutter_cupertino_date_picker: ^1.0.12
+  shared_preferences: 0.5.3+4
+  flutter_slidable: "^0.5.4"
+  provider: 
+  dynamic_theme: ^1.0.1
+  flushbar: ^1.9.1
+  intl: 0.15.7
+  sqflite: any
+  translator: ^0.1.2
+  flutter_rating_bar: ^1.1.0
+  flutter_spinkit: ^3.1.0
+  flutter_tts:
+  flutter_launcher_icons: "^0.7.3"
+  image_cropper: 1.1.2
+  flutter_image_compress: ^0.6.0
+  super_tooltip:
+  wave_progress_widget: ^0.0.1
+  progress_dialog: ^1.1.0+1
+  url_launcher:
+  splashscreen:
+  
+flutter_icons:
+  image_path: "assets/img/logo.png"
+  android: "launcher_icon"
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/logo.png
+    - assets/img/google_icon.png
+    - assets/img/empty_image.png
+    - assets/img/profile.png
+    - assets/img/blank_inbox_email.png
+    - assets/img/notification.png
+    - assets/img/empty_book.png
+    - assets/img/empty_page.png
+    - assets/img/recommend.png
+    - assets/img/empty.png
+    - assets/img/story_created.png
+    - assets/img/followers.png
+    - assets/img/story_published.png
+    
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
